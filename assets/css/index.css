@@ -1,0 +1,99 @@
+body {
+  background-color: #2C2B3D;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#geral {
+  width: 1100px;
+  margin: auto;
+  padding-top: 59px;
+}
+
+nav {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  list-style: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+
+}
+
+nav ul li {
+  margin-left: 64px;
+}
+
+
+
+main {
+  display: flex;
+  margin-top: 110px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+  font-style: normal;
+
+  font-size: 36px;
+  line-height: 40px;
+}
+
+#notebook {
+  margin-right: 80px;
+}
+
+p {
+  text-align: center;
+  color: #C2C2C2;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.9;
+}
+
+span {
+  color: #00BFA6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#linha {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #00BFA6;
+}
+
+footer {
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+  margin-top: 270px;
+  padding-top: 27px;
+  border-top: #00BFA6 1px solid;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 28px;
+  bottom: 0;
+}
+
+#icone {
+  position: fixed;
+  bottom: 37px;
+  left: 26px;
+}
